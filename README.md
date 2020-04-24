@@ -3,7 +3,7 @@
 
 <p>Written as Spring boot app using jdk12,Eclipse, Maven, Dockerfile is attached in the repo.</p>
 <p>Front end used are <b>JSP, Bootstrap</b></p>
-<p>Docker image is available in dockerhub image name - <b>ashokjjk/covid19:latest</b></p>
+<p>Docker image is available in hub.docker.com with image name - <b>ashokjjk/covid19:latest</b></p>
 <p>Docker commands to pull the image --> docker pull ashokjjk/covid19:latest</p>
 <p>Docker command to run the image   --> docker run -p 8080:8080 -d -it ashokjjk/covid19:latest</p>
 <p>Embedded tomcat is exposed to port 8080.</p>
