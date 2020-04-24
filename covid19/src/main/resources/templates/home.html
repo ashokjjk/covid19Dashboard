@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Covid-19 Dashboard</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+
+  <body>
+  
+    <table>
+      <tr>
+        <th>Province/State</th>
+        <th>Country</th>
+        <th>Total Case</th>
+      </tr>
+      <tr th:each="stat : ${stats}">
+        <td th:text="${stat.State}"></td>
+        <td th:text="${stat.Country}"></td>
+        <td th:text="${stat.TotalCase}">0</td>
+      </tr>
+    </table>
+  
+  
+  <!-- <table class="table">
+        <tr>
+            <th>State</th>
+            <th>Country</th>
+            <th>Total cases reported</th>
+            <th>Changes since last day</th>
+        </tr>
+        <tr th:each="locationStat : ${locationStats}">
+            <td th:text="${locationStat.state}"></td>
+            <td th:text="${locationStat.country}"></td>
+            <td th:text="${locationStat.latestTotalCases}">0</td>
+            <td th:text="${locationStat.diffFromPrevDay}">0</td>
+        </tr>
+    </table> -->
+  </body>
+
+</html>
