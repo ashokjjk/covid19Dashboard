@@ -1,7 +1,7 @@
 # Covid19 Dashboard
 <p>This application tracks the total number of reported cases globally</p>
 
-<p>Written as Spring boot app using jdk12, Maven, Dockerfile is attached in the repo.</p>
+<p>Written as Spring boot app using jdk12,Eclipse, Maven, Dockerfile is attached in the repo.</p>
 <p>Front end used are <b>JSP, Bootstrap</b></p>
 <p>Docker image is available in dockerhub image name - <b>ashokjjk/covid19:latest</b></p>
 <p>Docker commands to pull the image --> docker pull ashokjjk/covid19:latest</p>
